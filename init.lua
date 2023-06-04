@@ -69,6 +69,21 @@ return {
   -- augroups/autocommands and custom filetypes also this just pure lua so
   -- anything that doesn't fit in the normal config locations above can go here
   polish = function()
+   local format_sync_grp = vim.api.nvim_create_augroup("GoFormat", {})
+    vim.api.nvim_create_autocmd("BufWritePre", {
+      pattern = "*.go",
+      callback = function()
+        require('go.format').goimport()
+      end,
+      group = format_sync_grp,
+    })
+    require('go').setup()
+
+    vim.api.nvim_create_autocmd("User AstroFile", {
+      desc = "no auto comment after pressing o",
+      pattern = "*",
+      command = "setlocal formatoptions-=o",
+    })
     -- Set up custom filetypes
     -- vim.filetype.add {
     --   extension = {

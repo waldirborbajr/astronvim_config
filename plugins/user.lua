@@ -9,4 +9,11 @@ return {
   --     require("lsp_signature").setup()
   --   end,
   -- },
+
+{
+  'ThePrimeagen/vim-be-good',
+  cmd = {
+    "VimBeGood",
+  }
+}
 }

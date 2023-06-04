@@ -8,19 +8,20 @@ return {
   -- { import = "astrocommunity.completion.copilot-lua-cmp" },
 
   -- Frontend Development
-  { import = "astrocommunity.pack.tailwindcss",    enabled = true },
-  { import = "astrocommunity.pack.typescript",     enabled = true },
-  { import = "astrocommunity.pack.vue",            enabled = true },
-  { import = "astrocommunity.pack.json",           enabled = true },
+  { import = "astrocommunity.pack.tailwindcss", enabled = true },
+  { import = "astrocommunity.pack.typescript", enabled = true },
+  { import = "astrocommunity.pack.vue", enabled = true },
+  { import = "astrocommunity.pack.json", enabled = true },
   -- Backend Development
-  { import = "astrocommunity.pack.rust",           enabled = true },
-  { import = "astrocommunity.pack.go",             enabled = true },
-  { import = "astrocommunity.pack.yaml",           enabled = true },
-  { import = "astrocommunity.pack.prisma",         enabled = true },
+  { import = "astrocommunity.pack.rust", enabled = true },
+  { import = "astrocommunity.pack.go", enabled = true },
+  { import = "astrocommunity.pack.yaml", enabled = true },
+  { import = "astrocommunity.pack.prisma", enabled = true },
+  { import = "astrocommunity.pack.lua", enabled = true },
   -- Theme
   { import = "astrocommunity.colorscheme.catppuccin" },
   -- Comment
-{ import = "astrocommunity.comment.mini-comment" },
+  { import = "astrocommunity.comment.mini-comment" },
   {
     "mini.comment",
     version = false,
