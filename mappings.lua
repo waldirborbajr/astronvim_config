@@ -11,8 +11,8 @@ return {
     ["WW"] = { "<cmd>write<cr>", desc = "Write" },
     ["!!"] = { "<cmd>qa!<cr>", desc = "Write" },
     ["<leader>ss"] = { ":%s/", desc = "Search and Replace RegExp" },
-    ["tab"] = { "<cmd>bnext<cr>", desc = "Next buffer" },
-    ["<S>tab"] = { "<cmd>bprev<cr>", desc = "Prev buffer" },
+    ["<Tab>"] = { "<cmd>bnext<cr>", desc = "Next buffer" },
+    ["<S-Tab>"] = { "<cmd>bprev<cr>", desc = "Prev buffer" },
 
     -- second key is the lefthand side of the map
     -- mappings seen under group name "Buffer"
