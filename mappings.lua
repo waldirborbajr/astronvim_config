@@ -6,6 +6,12 @@
 return {
   -- first key is the mode
   n = {
+    -- Custom map
+    ["QQ"] = { "<cmd>quit<cr>", desc = "Quit" },
+    ["WW"] = { "<cmd>write<cr>", desc = "Write" },
+    ["!!"] = { "<cmd>qa!<cr>", desc = "Write" },
+    ["<leader>ss"] = { ":%s/", desc = "Search and Replace RegExp" },
+
     -- second key is the lefthand side of the map
     -- mappings seen under group name "Buffer"
     ["<leader>bn"] = { "<cmd>tabnew<cr>", desc = "New tab" },
