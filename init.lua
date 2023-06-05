@@ -82,6 +82,7 @@ return {
       pattern = "*",
       command = "setlocal formatoptions-=o",
     })
+
     -- Set up custom filetypes
     -- vim.filetype.add {
     --   extension = {
