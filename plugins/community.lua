@@ -8,15 +8,16 @@ return {
   -- { import = "astrocommunity.completion.copilot-lua-cmp" },
 
   -- Frontend Development
-  { import = "astrocommunity.pack.html-css", enabled = true },
-  { import = "astrocommunity.pack.tailwindcss", enabled = true },
-  { import = "astrocommunity.pack.typescript", enabled = false },
-  { import = "astrocommunity.pack.typescript-all-in-one", enabled = true },
-  { import = "astrocommunity.pack.vue", enabled = true },
-  { import = "astrocommunity.pack.json", enabled = true },
+  { import = "astrocommunity.pack.html-css",              enabled = false },
+  { import = "astrocommunity.pack.tailwindcss",           enabled = false },
+  { import = "astrocommunity.pack.typescript",            enabled = false },
+  { import = "astrocommunity.pack.typescript-all-in-one", enabled = false },
+  { import = "astrocommunity.pack.vue",                   enabled = false },
+  { import = "astrocommunity.pack.json",                  enabled = false },
+  { import = "astrocommunity.pack.prisma",                enabled = false },
   -- Backend Development
-  { import = "astrocommunity.pack.rust", enabled = false },
-  { import = "astrocommunity.pack.toml", enabled = false },
+  { import = "astrocommunity.pack.rust",                  enabled = false },
+  { import = "astrocommunity.pack.toml",                  enabled = false },
   -- {
   --   "simrat39/rust-tools.nvim",
   --   opts = {
@@ -45,12 +46,11 @@ return {
   --     },
   --   },
   -- },
-  { import = "astrocommunity.pack.go", enabled = true },
-  { import = "astrocommunity.pack.yaml", enabled = true },
-  { import = "astrocommunity.pack.prisma", enabled = true },
-  { import = "astrocommunity.pack.lua", enabled = true },
+  { import = "astrocommunity.pack.go",                    enabled = true },
+  { import = "astrocommunity.pack.yaml",                  enabled = true },
+  { import = "astrocommunity.pack.lua",                   enabled = true },
   -- Theme
-  { import = "astrocommunity.colorscheme.catppuccin", enabled = true },
+  { import = "astrocommunity.colorscheme.catppuccin",     enabled = true },
   -- Comment
   { import = "astrocommunity.comment.mini-comment" },
   {
