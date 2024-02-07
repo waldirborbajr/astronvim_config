@@ -1,6 +1,17 @@
 -- set vim options here (vim.<first_key>.<second_key> = value)
 return {
   opt = {
+    -- custom
+    swapfile = true,
+    backup = false,
+    undodir = os.getenv "HOME" .. "/.vim/undodir",
+    undofile = true,
+    encoding = "utf-8",
+    fileencoding = "utf-8",
+    tabstop = 2,
+    softtabstop = 2,
+    shiftwidth = 2,
+
     -- set to true or false etc.
     relativenumber = true, -- sets vim.opt.relativenumber
     number = true, -- sets vim.opt.number
