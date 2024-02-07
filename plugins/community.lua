@@ -11,6 +11,7 @@ return {
   { import = "astrocommunity.pack.rust", enabled = true },
   { import = "astrocommunity.pack.toml", enabled = true },
   { import = "astrocommunity.pack.go", enabled = true },
+  { import = "astrocommunity.pack.python", enabled = true },
   { import = "astrocommunity.pack.yaml", enabled = true },
   { import = "astrocommunity.pack.markdown", enabled = false },
   { import = "astrocommunity.pack.json", enabled = false },
